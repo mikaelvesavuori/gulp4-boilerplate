@@ -1,0 +1,12 @@
+* {
+	color: rgb(0, 0, 0);
+}
+
+%test {
+	width: 100%;
+	color: red;
+}
+
+button {
+	@extend %test;
+}
